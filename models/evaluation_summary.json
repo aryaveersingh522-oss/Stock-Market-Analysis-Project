@@ -1,0 +1,82 @@
+{
+  "best_model": "Decision Tree",
+  "metrics_table": [
+    {
+      "Model": "Logistic Regression",
+      "Accuracy": 0.505,
+      "Precision": 0.5370370370370371,
+      "Recall": 0.5420560747663551,
+      "F1_Score": 0.5395348837209303,
+      "ROC_AUC": 0.5017586172243995,
+      "Log_Loss": 0.6958416061446581
+    },
+    {
+      "Model": "K-Nearest Neighbors",
+      "Accuracy": 0.495,
+      "Precision": 0.5277777777777778,
+      "Recall": 0.5327102803738317,
+      "F1_Score": 0.5302325581395348,
+      "ROC_AUC": 0.4970857200281379,
+      "Log_Loss": 0.7607767236252443
+    },
+    {
+      "Model": "Na\u00efve Bayes",
+      "Accuracy": 0.53,
+      "Precision": 0.549618320610687,
+      "Recall": 0.6728971962616822,
+      "F1_Score": 0.6050420168067226,
+      "ROC_AUC": 0.5482866043613707,
+      "Log_Loss": 0.6969877690749163
+    },
+    {
+      "Model": "Decision Tree",
+      "Accuracy": 0.54,
+      "Precision": 0.5454545454545454,
+      "Recall": 0.8411214953271028,
+      "F1_Score": 0.6617647058823529,
+      "ROC_AUC": 0.5177871570696413,
+      "Log_Loss": 1.844545607577978
+    },
+    {
+      "Model": "Support Vector Machine",
+      "Accuracy": 0.515,
+      "Precision": 0.5471698113207547,
+      "Recall": 0.5420560747663551,
+      "F1_Score": 0.5446009389671361,
+      "ROC_AUC": 0.4628680534619636,
+      "Log_Loss": 0.6956745671248964
+    }
+  ],
+  "confusion_matrices": {
+    "Logistic Regression": {
+      "TN": 43,
+      "FP": 50,
+      "FN": 49,
+      "TP": 58
+    },
+    "K-Nearest Neighbors": {
+      "TN": 42,
+      "FP": 51,
+      "FN": 50,
+      "TP": 57
+    },
+    "Na\u00efve Bayes": {
+      "TN": 34,
+      "FP": 59,
+      "FN": 35,
+      "TP": 72
+    },
+    "Decision Tree": {
+      "TN": 18,
+      "FP": 75,
+      "FN": 17,
+      "TP": 90
+    },
+    "Support Vector Machine": {
+      "TN": 45,
+      "FP": 48,
+      "FN": 49,
+      "TP": 58
+    }
+  }
+}
